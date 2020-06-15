@@ -30,14 +30,7 @@ fn main() {
 
     for _a in 0.._n {
 
-        if is_having_triangles {
-            break;
-        }
-
         for _b in 0.._n {
-            if is_having_triangles {
-                break;
-            }
 
             if matrix[_a as usize][_b as usize] != 1{
                 continue;
@@ -47,13 +40,11 @@ fn main() {
                 if matrix[_b as usize][_c as usize] == 1 && matrix[_c as usize][_a as usize] == 1 {
                     is_having_triangles = true;
                     println!("YES");
-                    break;
+                    return;
                 }
             }
         }
     }
 
-    if !is_having_triangles {
-        println!("NO");
-    }
+    println!("NO");
 }
