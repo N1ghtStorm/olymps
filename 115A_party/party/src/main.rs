@@ -32,6 +32,8 @@ fn main() {
 
     let mut depth = 1;
 
+    //println!("{:?}", main_boss_id_vec);
+
     iterate_tree_depth(&&main_boss_id_vec, &&main_vec, &mut depth);
     println!("{:?}", depth);
 }
@@ -43,12 +45,13 @@ fn iterate_tree_depth(boss_vector: &Vec<i32>, people_vec: &Vec<i32>, depth: &mut
     for i in 0..a {
         let worker_vec = people_vec
             .iter()
-            .filter(|&&x| x == (boss_vector[i] as i32))
+            .filter(|&&x| x == boss_vector.iter().position(|&s| s == i))
             .cloned()
             .collect::<Vec<i32>>();
 
+        println!("{:?}", boss_vector[i]);
+
         if worker_vec.len() > 0 {
-            println!("ho");
             all_length_is_null = false;
             iterate_tree_depth(&&worker_vec, &&people_vec, depth);
         }
