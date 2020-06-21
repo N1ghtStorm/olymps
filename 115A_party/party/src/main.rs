@@ -45,18 +45,20 @@ fn iterate_tree_depth(boss_vector: &Vec<i32>, people_vec: &Vec<i32>, depth: &mut
     for i in 0..a {
         let worker_vec = people_vec
             .iter()
-            .filter(|&&x| x == boss_vector[i])
+            .filter(|&&x| {
+                x == people_vec
+                    .iter()
+                    .position(|&y| y == boss_vector[i])
+                    .unwrap() as i32
+            })
             .cloned()
-            .collect::<Vec<i32>>()
-            .iter()
-            .map(|x| boss_vector[i])
             .collect::<Vec<i32>>();
 
         println!("{:?}", worker_vec);
 
         if worker_vec.len() > 0 {
             all_length_is_null = false;
-            //iterate_tree_depth(&&worker_vec, &&people_vec, depth);
+            iterate_tree_depth(&&worker_vec, &&people_vec, depth);
         }
     }
 
