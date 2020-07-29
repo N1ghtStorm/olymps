@@ -10,4 +10,21 @@ fn main() {
     matrix[3][2] = 35;
 
     println!("{:?}", matrix);
+
+    let mut shortest_len = 0;
+    let mut shortest_path_nodes = vec![0];
+
+    for i in 0..4 {
+        let mut shortest_path_i_nodes = vec![(0, 0)];
+        let mut shortest_town_i = (0, 0);
+
+        for j in 0..4 {
+            if matrix[i][j] != 0 {
+                // /println!("{:?}", matrix[i][j]);
+                shortest_path_i_nodes.push((j, matrix[i][j]));
+            }
+        }
+
+        //let a = shortest_path_i_nodes.Map().iter().min()
+    }
 }
