@@ -1,0 +1,13 @@
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\bin\Debug\netcoreapp3.1\PartyTree.exe
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\bin\Debug\netcoreapp3.1\PartyTree.deps.json
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\bin\Debug\netcoreapp3.1\PartyTree.runtimeconfig.json
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\bin\Debug\netcoreapp3.1\PartyTree.runtimeconfig.dev.json
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\bin\Debug\netcoreapp3.1\PartyTree.dll
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\bin\Debug\netcoreapp3.1\PartyTree.pdb
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.csprojAssemblyReference.cache
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.AssemblyInfoInputs.cache
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.AssemblyInfo.cs
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.csproj.CoreCompileInputs.cache
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.dll
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.pdb
+D:\Repos\olymp\115A_party\PartyTree\PartyTree\obj\Debug\netcoreapp3.1\PartyTree.genruntimeconfig.cache

@@ -54,7 +54,7 @@ fn iterate_tree_depth(boss_vector: &Vec<i32>, people_vec: &Vec<i32>, depth: &mut
             .cloned()
             .collect::<Vec<i32>>();
 
-        println!("{:?}", worker_vec);
+        //println!("{:?}", worker_vec);
 
         if worker_vec.len() > 0 {
             all_length_is_null = false;
