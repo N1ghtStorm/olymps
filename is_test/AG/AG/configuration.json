@@ -1,0 +1,24 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/forest",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/forest",
+      "UpstreamHttpMethod": [ "Post" ],
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "APIService8001",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}
