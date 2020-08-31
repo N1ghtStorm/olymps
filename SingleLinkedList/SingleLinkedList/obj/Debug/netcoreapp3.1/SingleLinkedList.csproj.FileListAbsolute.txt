@@ -1,0 +1,12 @@
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.AssemblyInfoInputs.cache
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.AssemblyInfo.cs
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.csproj.CoreCompileInputs.cache
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleLinkedList.exe
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleLinkedList.deps.json
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleLinkedList.runtimeconfig.json
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleLinkedList.runtimeconfig.dev.json
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleLinkedList.dll
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleLinkedList.pdb
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.dll
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.pdb
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.genruntimeconfig.cache
