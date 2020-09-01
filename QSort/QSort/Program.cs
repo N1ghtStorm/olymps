@@ -52,12 +52,14 @@ namespace QSort
                     intArray[j] = temp;
                 }
 
-                var temp_1 = intArray[i];
-                intArray[i] = intArray[end];
-                intArray[end] = temp_1;
+
             }
 
-            return i;
+            var temp_1 = intArray[i];
+            intArray[i + 1] = intArray[end];
+            intArray[end] = temp_1;
+
+            return i + 1;
         }
     }
 }
