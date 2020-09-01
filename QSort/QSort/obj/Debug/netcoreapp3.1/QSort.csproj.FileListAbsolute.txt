@@ -1,0 +1,13 @@
+D:\Repos\olymp\QSort\QSort\bin\Debug\netcoreapp3.1\QSort.exe
+D:\Repos\olymp\QSort\QSort\bin\Debug\netcoreapp3.1\QSort.deps.json
+D:\Repos\olymp\QSort\QSort\bin\Debug\netcoreapp3.1\QSort.runtimeconfig.json
+D:\Repos\olymp\QSort\QSort\bin\Debug\netcoreapp3.1\QSort.runtimeconfig.dev.json
+D:\Repos\olymp\QSort\QSort\bin\Debug\netcoreapp3.1\QSort.dll
+D:\Repos\olymp\QSort\QSort\bin\Debug\netcoreapp3.1\QSort.pdb
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.csprojAssemblyReference.cache
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.AssemblyInfoInputs.cache
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.AssemblyInfo.cs
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.csproj.CoreCompileInputs.cache
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.dll
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.pdb
+D:\Repos\olymp\QSort\QSort\obj\Debug\netcoreapp3.1\QSort.genruntimeconfig.cache
