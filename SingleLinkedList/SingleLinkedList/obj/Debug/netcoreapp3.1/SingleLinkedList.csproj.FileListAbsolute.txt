@@ -10,3 +10,4 @@ D:\Repos\olymp\SingleLinkedList\SingleLinkedList\bin\Debug\netcoreapp3.1\SingleL
 D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.dll
 D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.pdb
 D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.genruntimeconfig.cache
+D:\Repos\olymp\SingleLinkedList\SingleLinkedList\obj\Debug\netcoreapp3.1\SingleLinkedList.csprojAssemblyReference.cache

@@ -16,10 +16,16 @@ namespace SingleLinkedList
             list.Add("3");
             list.PrintAllNodes();
 
-            var cats = new SingleLinkedList<Cat>(new Cat { Name = "Barsik" });
-            cats.Add(new Cat { Name = "Murka" });
-            cats.Add(new Cat { Name = "Krisy" });
-            cats.Add(new Cat { Name = "Spenser" });
+            list.InvertList();
+
+            list.PrintAllNodes();
+
+            var cats = new SingleLinkedList<Cat>(new Cat { Name = "Barsik" })
+            {
+                new Cat { Name = "Murka" },
+                new Cat { Name = "Krisy" },
+                new Cat { Name = "Spenser" }
+            };
 
             var names = cats.Select(x => x.Name).ToList();
             names.ForEach(x => Console.WriteLine(x));
@@ -62,6 +68,23 @@ namespace SingleLinkedList
             }
 
             current.Next = toAdd;
+        }
+
+
+        public void InvertList()
+        {
+            Node<T> previous = null;
+            var current = Head;
+
+            while (current.Next != null)
+            {
+                var temp_next = current.Next;
+                current.Next = previous;
+                previous = current;
+                current = temp_next;
+            }
+
+            Head = previous;
         }
 
         public void PrintAllNodes()
